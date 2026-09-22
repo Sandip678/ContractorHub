@@ -1,0 +1,20 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Room schema exports (Phase 3 पासून यायला सुरुवात होईल — जपून ठेवायची, git मध्ये commit करायची)
+# app/schemas/ -> commit करायची, ignore करू नये
+
+*.apk
+*.aab
+
+# Project exclude paths
+/app/build/
+/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/

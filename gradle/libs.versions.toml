@@ -1,0 +1,70 @@
+# ============================================================
+# ContractorHub — Gradle Version Catalog
+# PART 3: सर्व versions फक्त इथे. कुठेही dynamic version (+, latest) वापरायची नाही.
+#
+# NOTE: AGP 9.3.0 / Gradle 9.5.0 / Android Studio "Quail 3" ही टूलिंग माझ्या
+# training cutoff (Jan 2026) नंतरची असू शकते. खालील library versions हे
+# "known-good, तर्कसंगत" defaults आहेत — Android Studio मध्ये उघडल्यावर Gradle
+# sync ने एखादी नवीन stable version सुचवली, तर ती इथे (फक्त इथे) अपडेट कर.
+# ============================================================
+
+[versions]
+agp = "9.3.0"
+kotlin = "2.4.10"
+ksp = "2.3.11"
+
+coreKtx = "1.15.0"
+appcompat = "1.7.0"
+material = "1.13.0"
+constraintlayout = "2.2.0"
+recyclerview = "1.4.0"
+swiperefreshlayout = "1.1.0"
+
+lifecycleRuntimeKtx = "2.9.0"
+lifecycleViewmodelKtx = "2.9.0"
+navigationFragmentKtx = "2.9.0"
+navigationUiKtx = "2.9.0"
+fragmentKtx = "1.8.5"
+coroutinesAndroid = "1.9.0"
+
+room = "2.7.0"
+camerax = "1.6.2"
+mlkitTextRecognition = "16.0.1"
+
+junit = "4.13.2"
+androidxTestExtJunit = "1.2.1"
+espressoCore = "3.6.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshlayout" }
+
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentKtx" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutinesAndroid" }
+
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+androidx-camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "camerax" }
+androidx-camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax" }
+androidx-camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax" }
+androidx-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax" }
+mlkit-text-recognition = { group = "com.google.mlkit", name = "text-recognition", version.ref = "mlkitTextRecognition" }
+
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestExtJunit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+androidx-room = { id = "androidx.room", version.ref = "room" }

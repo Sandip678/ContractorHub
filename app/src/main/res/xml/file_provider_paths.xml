@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- PART 23 — Bill images: Bills/YYYY/MM/SiteName/ या structure ने
+         app-private files directory मध्ये साठवतो. -->
+    <files-path name="bills" path="Bills/" />
+</paths>

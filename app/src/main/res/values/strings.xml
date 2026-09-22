@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContractorHub</string>
+
+    <!-- Bottom Navigation (PART 4, Screen 4) -->
+    <string name="nav_home">Home</string>
+    <string name="nav_sites">Sites</string>
+    <string name="nav_transactions">Transactions</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_more">More</string>
+
+    <!-- Dashboard (PART 14 Screen 3, PART 81) -->
+    <string name="dashboard_greeting_morning">Good Morning</string>
+    <string name="dashboard_active_sites">Active Sites</string>
+    <string name="dashboard_today_income">Today\'s Income</string>
+    <string name="dashboard_today_expense">Today\'s Expense</string>
+    <string name="dashboard_pending_receivable">Pending Receivable</string>
+    <string name="dashboard_labour_payable">Labour Payable</string>
+    <string name="dashboard_low_stock_format">%1$d items low on stock</string>
+    <string name="dashboard_quick_actions">Quick Actions</string>
+    <string name="dashboard_site_status">Site Status</string>
+    <string name="dashboard_recent_transactions">Recent Transactions</string>
+
+    <!-- Quick action labels (PART 82) -->
+    <string name="quick_action_site">Site</string>
+    <string name="quick_action_expense">Expense</string>
+    <string name="quick_action_payment">Payment</string>
+    <string name="quick_action_labour">Labour</string>
+    <string name="quick_action_material">Material</string>
+    <string name="quick_action_scan_bill">Scan Bill</string>
+    <string name="quick_action_coming_soon_format">%1$s — पुढच्या phase मध्ये उपलब्ध होईल</string>
+
+    <!-- Sites module (PART 15) -->
+    <string name="sites_empty_title">No Sites Yet</string>
+    <string name="sites_empty_subtitle">Add your first construction site</string>
+    <string name="sites_add_site">+ Add Site</string>
+    <string name="sites_screen_title">Sites</string>
+    <string name="site_add_title">Add Site</string>
+    <string name="site_edit_title">Edit Site</string>
+    <string name="site_field_name">Site / Project Name</string>
+    <string name="site_field_client">Client Name</string>
+    <string name="site_field_address">Address</string>
+    <string name="site_field_contract_amount">Contract Amount</string>
+    <string name="site_field_status">Status</string>
+    <string name="site_field_notes">Notes</string>
+    <string name="site_action_save">Save</string>
+    <string name="site_action_delete">Delete Site</string>
+    <string name="site_error_name_required">Site name is required</string>
+    <string name="site_saved_toast">Site saved</string>
+    <string name="site_deleted_toast">Site deleted</string>
+    <string name="site_delete_confirm_title">Delete this site?</string>
+    <string name="site_delete_confirm_message">This will remove the site permanently. This action cannot be undone.</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="site_status_active">Active</string>
+    <string name="site_status_on_hold">On Hold</string>
+    <string name="site_status_completed">Completed</string>
+
+    <!-- Generic errors (PART 83) -->
+    <string name="error_generic">Something went wrong. Your existing data was not changed.</string>
+
+    <!-- More menu hub -->
+    <string name="more_menu_clients">Clients</string>
+    <string name="more_menu_contacts">Contacts</string>
+    <string name="more_menu_settings">Settings</string>
+
+    <!-- Clients module (PART 38-like, standalone client management) -->
+    <string name="clients_empty_title">No Clients Yet</string>
+    <string name="clients_empty_subtitle">Add your first client</string>
+    <string name="clients_add_client">+ Add Client</string>
+    <string name="clients_screen_title">Clients</string>
+    <string name="client_add_title">Add Client</string>
+    <string name="client_edit_title">Edit Client</string>
+    <string name="client_field_name">Client Name</string>
+    <string name="client_field_mobile">Mobile</string>
+    <string name="client_field_address">Address</string>
+    <string name="client_field_notes">Notes</string>
+    <string name="client_action_delete">Delete Client</string>
+    <string name="client_error_name_required">Client name is required</string>
+    <string name="client_saved_toast">Client saved</string>
+    <string name="client_deleted_toast">Client deleted</string>
+    <string name="client_delete_confirm_title">Delete this client?</string>
+    <string name="client_delete_confirm_message">Sites linked to this client will keep their data but lose the client link. This action cannot be undone.</string>
+
+    <!-- Contacts module (PART 38) -->
+    <string name="contacts_empty_title">No Contacts Yet</string>
+    <string name="contacts_empty_subtitle">Add your first business contact</string>
+    <string name="contacts_add_contact">+ Add Contact</string>
+    <string name="contacts_screen_title">Contacts</string>
+    <string name="contact_add_title">Add Contact</string>
+    <string name="contact_edit_title">Edit Contact</string>
+    <string name="contact_field_name">Name</string>
+    <string name="contact_field_category">Category</string>
+    <string name="contact_field_mobile">Mobile</string>
+    <string name="contact_field_alternate_mobile">Alternate Mobile</string>
+    <string name="contact_field_company">Company</string>
+    <string name="contact_field_address">Address</string>
+    <string name="contact_field_notes">Notes</string>
+    <string name="contact_field_favorite">Mark as favorite</string>
+    <string name="contact_action_delete">Delete Contact</string>
+    <string name="contact_error_name_required">Name is required</string>
+    <string name="contact_saved_toast">Contact saved</string>
+    <string name="contact_deleted_toast">Contact deleted</string>
+    <string name="contact_delete_confirm_title">Delete this contact?</string>
+    <string name="contact_delete_confirm_message">This action cannot be undone.</string>
+    <string name="contact_no_mobile_toast">No mobile number saved for this contact</string>
+
+    <string name="category_engineer">Engineer</string>
+    <string name="category_architect">Architect</string>
+    <string name="category_contractor">Contractor</string>
+    <string name="category_sub_contractor">Sub-contractor</string>
+    <string name="category_labour_contractor">Labour Contractor</string>
+    <string name="category_electrician">Electrician</string>
+    <string name="category_plumber">Plumber</string>
+    <string name="category_supplier">Supplier</string>
+    <string name="category_transporter">Transporter</string>
+    <string name="category_hardware_shop">Hardware Shop</string>
+    <string name="category_machinery">Machinery</string>
+    <string name="category_client">Client</string>
+    <string name="category_emergency">Emergency</string>
+    <string name="category_other">Other</string>
+
+    <!-- Labour module (PART 16, 17) -->
+    <string name="labour_empty_title">No Labour Yet</string>
+    <string name="labour_empty_subtitle">Add your first worker</string>
+    <string name="labour_add_labour">+ Add Labour</string>
+    <string name="labour_screen_title">Labour</string>
+    <string name="labour_add_title">Add Labour</string>
+    <string name="labour_edit_title">Edit Labour</string>
+    <string name="labour_field_name">Name</string>
+    <string name="labour_field_mobile">Mobile</string>
+    <string name="labour_field_worktype">Work Type</string>
+    <string name="labour_field_daily_rate">Daily Rate</string>
+    <string name="labour_field_status">Status</string>
+    <string name="labour_field_notes">Notes</string>
+    <string name="labour_action_delete">Delete Labour</string>
+    <string name="labour_error_name_required">Name is required</string>
+    <string name="labour_saved_toast">Labour saved</string>
+    <string name="labour_deleted_toast">Labour deleted</string>
+    <string name="labour_delete_confirm_title">Delete this labour?</string>
+    <string name="labour_delete_confirm_message">Attendance and ledger history for this worker will also be removed. This action cannot be undone.</string>
+    <string name="labour_status_active">Active</string>
+    <string name="labour_status_inactive">Inactive</string>
+    <string name="worktype_mason">Mason</string>
+    <string name="worktype_helper">Helper</string>
+    <string name="worktype_electrician">Electrician</string>
+    <string name="worktype_plumber">Plumber</string>
+    <string name="worktype_other">Other</string>
+
+    <string name="labour_current_balance">Current Balance</string>
+    <string name="labour_balance_payable_format">%1$s Payable</string>
+    <string name="labour_work_summary_format">%1$d Days • %2$d Half Days • %3$s OT Hours</string>
+    <string name="labour_total_earned">Total Earned</string>
+    <string name="labour_paid">Paid</string>
+    <string name="labour_advance">Advance</string>
+    <string name="labour_angavar">Angavar</string>
+    <string name="labour_add_attendance">+ Attendance</string>
+    <string name="labour_add_transaction">+ Transaction</string>
+    <string name="labour_attendance_history">Attendance History</string>
+    <string name="labour_attendance_empty">No attendance marked yet</string>
+    <string name="labour_ledger_history">Ledger</string>
+    <string name="labour_ledger_empty">No transactions yet</string>
+
+    <string name="attendance_field_date">Date</string>
+    <string name="attendance_field_status">Status</string>
+    <string name="attendance_field_ot_hours">OT Hours</string>
+    <string name="attendance_field_note">Note (optional)</string>
+    <string name="attendance_dialog_title">Mark Attendance</string>
+    <string name="attendance_status_present">Present</string>
+    <string name="attendance_status_half_day">Half Day</string>
+    <string name="attendance_status_absent">Absent</string>
+    <string name="attendance_status_leave">Leave</string>
+    <string name="attendance_saved_toast">Attendance saved</string>
+    <string name="attendance_deleted_toast">Attendance entry deleted</string>
+    <string name="attendance_delete_confirm_title">Delete this attendance entry?</string>
+
+    <string name="transaction_field_type">Type</string>
+    <string name="transaction_field_amount">Amount</string>
+    <string name="transaction_field_date">Date</string>
+    <string name="transaction_field_note">Note (optional)</string>
+    <string name="transaction_dialog_title">Add Transaction</string>
+    <string name="transaction_type_advance">Advance</string>
+    <string name="transaction_type_angavar">Angavar</string>
+    <string name="transaction_type_payment">Payment</string>
+    <string name="transaction_type_adjustment">Adjustment</string>
+    <string name="transaction_type_settlement">Settlement</string>
+    <string name="transaction_error_amount_required">Enter a valid amount</string>
+    <string name="transaction_saved_toast">Transaction saved</string>
+    <string name="transaction_deleted_toast">Transaction deleted</string>
+    <string name="transaction_delete_confirm_title">Delete this transaction?</string>
+    <string name="dialog_save">Save</string>
+
+    <!-- Materials module (PART 18-20) -->
+    <string name="material_empty_title">No Materials Yet</string>
+    <string name="material_empty_subtitle">Add your first material</string>
+    <string name="material_add_material">+ Add Material</string>
+    <string name="material_screen_title">Materials</string>
+    <string name="material_add_title">Add Material</string>
+    <string name="material_edit_title">Edit Material</string>
+    <string name="material_field_name">Material Name</string>
+    <string name="material_field_category">Category</string>
+    <string name="material_field_unit">Unit</string>
+    <string name="material_field_minimum_stock">Minimum Stock</string>
+    <string name="material_field_rate">Rate (per unit)</string>
+    <string name="material_action_delete">Delete Material</string>
+    <string name="material_error_name_required">Material name is required</string>
+    <string name="material_saved_toast">Material saved</string>
+    <string name="material_deleted_toast">Material deleted</string>
+    <string name="material_delete_confirm_title">Delete this material?</string>
+    <string name="material_delete_confirm_message">Its full stock history will also be removed. This action cannot be undone.</string>
+    <string name="material_low_stock_badge">LOW STOCK</string>
+    <string name="material_current_stock">Current Stock</string>
+    <string name="material_minimum_stock_format">Minimum stock: %1$s</string>
+    <string name="material_add_stock_transaction">+ Stock Transaction</string>
+    <string name="material_stock_history">Stock History</string>
+    <string name="material_stock_history_empty">No stock movement yet</string>
+
+    <string name="category_cement">Cement</string>
+    <string name="category_steel">Steel</string>
+    <string name="category_sand">Sand</string>
+    <string name="category_aggregate">Aggregate</string>
+    <string name="category_bricks">Bricks</string>
+    <string name="category_tiles">Tiles</string>
+    <string name="category_pipes">Pipes</string>
+    <string name="category_wire">Wire</string>
+    <string name="category_paint">Paint</string>
+    <string name="category_hardware">Hardware</string>
+    <string name="category_custom">Custom</string>
+
+    <string name="unit_bag">bag</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_ton">ton</string>
+    <string name="unit_piece">piece</string>
+    <string name="unit_litre">litre</string>
+    <string name="unit_sqft">sq.ft</string>
+    <string name="unit_meter">meter</string>
+    <string name="unit_brass">brass</string>
+    <string name="unit_custom">custom</string>
+
+    <string name="stock_dialog_title">Stock Transaction</string>
+    <string name="stock_field_type">Type</string>
+    <string name="stock_field_quantity">Quantity</string>
+    <string name="stock_field_supplier">Supplier Name</string>
+    <string name="stock_field_rate">Rate (per unit)</string>
+    <string name="stock_field_date">Date</string>
+    <string name="stock_field_note">Note (optional)</string>
+    <string name="stock_adjustment_increase">Increase</string>
+    <string name="stock_adjustment_decrease">Decrease</string>
+    <string name="stock_type_purchase">Purchase</string>
+    <string name="stock_type_issue">Issue</string>
+    <string name="stock_type_return">Return</string>
+    <string name="stock_type_adjustment">Adjustment</string>
+    <string name="stock_type_waste">Waste</string>
+    <string name="stock_error_quantity_required">Enter a valid quantity</string>
+    <string name="stock_saved_toast">Stock transaction saved</string>
+    <string name="stock_deleted_toast">Stock transaction deleted</string>
+    <string name="stock_delete_confirm_title">Delete this stock entry?</string>
+    <string name="stock_delete_confirm_message">Current stock will be adjusted back accordingly.</string>
+
+    <!-- Bills module (PART 21-24, 54-55) -->
+    <string name="bill_empty_title">No Bills Yet</string>
+    <string name="bill_empty_subtitle">Scan or add your first bill</string>
+    <string name="bill_add_bill">+ Add Bill</string>
+    <string name="bill_screen_title">Bills</string>
+    <string name="bill_add_title">Add Bill</string>
+    <string name="bill_edit_title">Edit Bill</string>
+    <string name="bill_filter_all">All</string>
+    <string name="bill_filter_paid">Paid</string>
+    <string name="bill_filter_unpaid">Unpaid</string>
+    <string name="bill_filter_partial">Partial</string>
+    <string name="bill_status_paid">PAID</string>
+    <string name="bill_status_unpaid">UNPAID</string>
+    <string name="bill_status_partial">PARTIAL</string>
+    <string name="bill_field_supplier">Supplier Name</string>
+    <string name="bill_field_site">Site</string>
+    <string name="bill_field_number">Bill Number</string>
+    <string name="bill_field_date">Bill Date</string>
+    <string name="bill_field_subtotal">Subtotal</string>
+    <string name="bill_field_tax">Tax</string>
+    <string name="bill_field_total">Total</string>
+    <string name="bill_field_paid">Paid</string>
+    <string name="bill_field_notes">Notes</string>
+    <string name="bill_action_delete">Delete Bill</string>
+    <string name="bill_error_total_required">Enter a valid total amount</string>
+    <string name="bill_saved_toast">Bill saved</string>
+    <string name="bill_deleted_toast">Bill deleted</string>
+    <string name="bill_delete_confirm_title">Delete this bill?</string>
+    <string name="bill_delete_confirm_message">The saved bill image will also be removed from this record. This action cannot be undone.</string>
+    <string name="bill_no_site">No site</string>
+
+    <string name="bill_scan_button">Scan Bill</string>
+    <string name="bill_camera_hint">Point the camera at the bill and capture</string>
+    <string name="bill_camera_capture">Capture</string>
+    <string name="bill_camera_reading">Reading bill…</string>
+    <string name="bill_camera_permission_denied">Camera permission is needed to scan bills</string>
+    <string name="bill_camera_error">Could not capture the photo. Please try again.</string>
+    <string name="bill_ocr_prefilled_toast">Amount detected from photo — please double-check before saving</string>
+
+    <!-- PART 24 — Duplicate Bill Check -->
+    <string name="bill_duplicate_title">Similar Bill Already Exists</string>
+    <string name="bill_duplicate_message">A bill with the same supplier, bill number, date and amount is already saved. Save anyway?</string>
+    <string name="dialog_save_anyway">Save Anyway</string>
+
+    <!-- Transactions hub (bottom nav) -->
+    <string name="transactions_hub_title">Transactions</string>
+    <string name="transactions_menu_expenses">Expenses</string>
+    <string name="transactions_menu_payments">Payments</string>
+    <string name="transactions_menu_bills">Bills</string>
+    <string name="transactions_menu_labour">Labour Ledger</string>
+
+    <!-- Expense module (PART 25) -->
+    <string name="expense_empty_title">No Expenses Yet</string>
+    <string name="expense_empty_subtitle">Add your first expense</string>
+    <string name="expense_add_expense">+ Add Expense</string>
+    <string name="expense_screen_title">Expenses</string>
+    <string name="expense_add_title">Add Expense</string>
+    <string name="expense_edit_title">Edit Expense</string>
+    <string name="expense_field_category">Category</string>
+    <string name="expense_field_site">Site</string>
+    <string name="expense_field_amount">Amount</string>
+    <string name="expense_field_date">Date</string>
+    <string name="expense_field_payment_method">Payment Method</string>
+    <string name="expense_field_note">Note</string>
+    <string name="expense_action_delete">Delete Expense</string>
+    <string name="expense_error_amount_required">Enter a valid amount</string>
+    <string name="expense_saved_toast">Expense saved</string>
+    <string name="expense_deleted_toast">Expense deleted</string>
+    <string name="expense_delete_confirm_title">Delete this expense?</string>
+    <string name="expense_delete_confirm_message">This action cannot be undone.</string>
+
+    <string name="expense_category_material">Material</string>
+    <string name="expense_category_labour">Labour</string>
+    <string name="expense_category_electrical">Electrical</string>
+    <string name="expense_category_plumbing">Plumbing</string>
+    <string name="expense_category_transport">Transport</string>
+    <string name="expense_category_fuel">Fuel</string>
+    <string name="expense_category_machinery">Machinery</string>
+    <string name="expense_category_tools">Tools</string>
+    <string name="expense_category_food">Food</string>
+    <string name="expense_category_other">Other</string>
+
+    <string name="payment_method_cash">Cash</string>
+    <string name="payment_method_bank">Bank</string>
+    <string name="payment_method_upi">UPI</string>
+
+    <!-- Client Payment module (PART 26) -->
+    <string name="payment_empty_title">No Payments Yet</string>
+    <string name="payment_empty_subtitle">Record your first client payment</string>
+    <string name="payment_add_payment">+ Add Payment</string>
+    <string name="payment_screen_title">Client Payments</string>
+    <string name="payment_add_title">Add Client Payment</string>
+    <string name="payment_edit_title">Edit Client Payment</string>
+    <string name="payment_field_client">Client Name</string>
+    <string name="payment_field_site">Site</string>
+    <string name="payment_field_amount">Amount</string>
+    <string name="payment_field_date">Date</string>
+    <string name="payment_field_method">Payment Method</string>
+    <string name="payment_field_reference">Reference (optional)</string>
+    <string name="payment_field_note">Note</string>
+    <string name="payment_action_delete">Delete Payment</string>
+    <string name="payment_error_amount_required">Enter a valid amount</string>
+    <string name="payment_saved_toast">Payment saved</string>
+    <string name="payment_deleted_toast">Payment deleted</string>
+    <string name="payment_delete_confirm_title">Delete this payment?</string>
+    <string name="payment_delete_confirm_message">This action cannot be undone.</string>
+
+    <!-- Bill (Supplier) Payment -->
+    <string name="bill_payment_history_title">Payments</string>
+    <string name="bill_payment_add_button">+ Record Payment</string>
+    <string name="bill_payment_dialog_title">Record Payment</string>
+    <string name="bill_payment_field_amount">Amount</string>
+    <string name="bill_payment_field_date">Date</string>
+    <string name="bill_payment_field_method">Payment Method</string>
+    <string name="bill_payment_field_note">Note (optional)</string>
+    <string name="bill_payment_saved_toast">Payment recorded</string>
+    <string name="bill_payment_error_amount_required">Enter a valid amount</string>
+    <string name="bill_payment_fully_paid">Fully paid</string>
+
+    <!-- Diary module (PART 27) -->
+    <string name="diary_screen_title">Diary</string>
+    <string name="diary_empty_title">No Diary Entries Yet</string>
+    <string name="diary_empty_subtitle">Expenses and payments will show up here automatically</string>
+    <string name="diary_income_label">Income</string>
+    <string name="diary_expense_label">Expense</string>
+    <string name="diary_net_label">Net</string>
+    <string name="diary_add_note">+ Note</string>
+    <string name="diary_note_dialog_title">Add Diary Note</string>
+    <string name="diary_note_field_text">Note</string>
+    <string name="diary_note_field_date">Date</string>
+    <string name="diary_note_error_required">Enter a note</string>
+    <string name="diary_note_saved_toast">Note added</string>
+    <string name="diary_note_delete_confirm_title">Delete this note?</string>
+    <string name="diary_note_deleted_toast">Note deleted</string>
+    <string name="transactions_menu_diary">Diary</string>
+</resources>

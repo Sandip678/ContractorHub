@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PART 9 — Color Palette (Light) -->
+    <color name="chub_primary">#1565C0</color>
+    <color name="chub_secondary">#F9A825</color>
+    <color name="chub_background">#F6F8FB</color>
+    <color name="chub_surface">#FFFFFF</color>
+    <color name="chub_text_primary">#172033</color>
+    <color name="chub_text_secondary">#667085</color>
+    <color name="chub_success">#2E7D32</color>
+    <color name="chub_warning">#ED8B00</color>
+    <color name="chub_error">#C62828</color>
+    <color name="chub_border">#E1E6EF</color>
+
+    <color name="chub_on_primary">#FFFFFF</color>
+    <color name="chub_on_secondary">#172033</color>
+</resources>

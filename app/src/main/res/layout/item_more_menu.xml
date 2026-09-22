@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_12"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_card_rounded"
+    android:padding="@dimen/spacing_16"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/image_more_icon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="@dimen/spacing_16"
+        android:contentDescription="@null"
+        tools:src="@drawable/ic_more_clients" />
+
+    <TextView
+        android:id="@+id/text_more_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/chub_text_primary"
+        android:textSize="@dimen/text_size_body"
+        android:textStyle="bold"
+        tools:text="Clients" />
+
+</LinearLayout>

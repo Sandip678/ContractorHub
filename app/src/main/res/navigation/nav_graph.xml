@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.contractorhub.app.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_dashboard"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/navigation_sites"
+        android:name="com.contractorhub.app.ui.sites.SitesFragment"
+        android:label="@string/sites_screen_title"
+        tools:layout="@layout/fragment_sites"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/addEditSiteFragment"
+        android:name="com.contractorhub.app.ui.sites.AddEditSiteFragment"
+        android:label="@string/site_add_title"
+        tools:layout="@layout/fragment_add_edit_site"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="siteId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_transactions"
+        android:name="com.contractorhub.app.ui.more.TransactionsHubFragment"
+        android:label="@string/transactions_hub_title"
+        tools:layout="@layout/fragment_transactions_hub"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/navigation_reports"
+        android:name="com.contractorhub.app.ui.common.PlaceholderFragment"
+        android:label="@string/nav_reports"
+        tools:layout="@layout/fragment_placeholder"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.contractorhub.app.ui.more.MoreFragment"
+        android:label="@string/nav_more"
+        tools:layout="@layout/fragment_more"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/clientsFragment"
+        android:name="com.contractorhub.app.ui.clients.ClientsFragment"
+        android:label="@string/clients_screen_title"
+        tools:layout="@layout/fragment_clients"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/addEditClientFragment"
+        android:name="com.contractorhub.app.ui.clients.AddEditClientFragment"
+        android:label="@string/client_add_title"
+        tools:layout="@layout/fragment_add_edit_client"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="clientId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.contractorhub.app.ui.contacts.ContactsFragment"
+        android:label="@string/contacts_screen_title"
+        tools:layout="@layout/fragment_contacts"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/addEditContactFragment"
+        android:name="com.contractorhub.app.ui.contacts.AddEditContactFragment"
+        android:label="@string/contact_add_title"
+        tools:layout="@layout/fragment_add_edit_contact"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="contactId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/labourListFragment"
+        android:name="com.contractorhub.app.ui.labour.LabourListFragment"
+        android:label="@string/labour_screen_title"
+        tools:layout="@layout/fragment_labour_list"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/addEditLabourFragment"
+        android:name="com.contractorhub.app.ui.labour.AddEditLabourFragment"
+        android:label="@string/labour_add_title"
+        tools:layout="@layout/fragment_add_edit_labour"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="labourId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/labourProfileFragment"
+        android:name="com.contractorhub.app.ui.labour.LabourProfileFragment"
+        android:label="@string/labour_screen_title"
+        tools:layout="@layout/fragment_labour_profile"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="labourId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/materialListFragment"
+        android:name="com.contractorhub.app.ui.materials.MaterialListFragment"
+        android:label="@string/material_screen_title"
+        tools:layout="@layout/fragment_material_list"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/addEditMaterialFragment"
+        android:name="com.contractorhub.app.ui.materials.AddEditMaterialFragment"
+        android:label="@string/material_add_title"
+        tools:layout="@layout/fragment_add_edit_material"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="materialId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/materialProfileFragment"
+        android:name="com.contractorhub.app.ui.materials.MaterialProfileFragment"
+        android:label="@string/material_screen_title"
+        tools:layout="@layout/fragment_material_profile"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="materialId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/billListFragment"
+        android:name="com.contractorhub.app.ui.bills.BillListFragment"
+        android:label="@string/bill_screen_title"
+        tools:layout="@layout/fragment_bill_list"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/addEditBillFragment"
+        android:name="com.contractorhub.app.ui.bills.AddEditBillFragment"
+        android:label="@string/bill_add_title"
+        tools:layout="@layout/fragment_add_edit_bill"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="billId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/billCameraFragment"
+        android:name="com.contractorhub.app.ui.bills.BillCameraFragment"
+        android:label="@string/bill_scan_button"
+        tools:layout="@layout/fragment_bill_camera"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="siteId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="siteName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/expenseListFragment"
+        android:name="com.contractorhub.app.ui.expenses.ExpenseListFragment"
+        android:label="@string/expense_screen_title"
+        tools:layout="@layout/fragment_expense_list"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/addEditExpenseFragment"
+        android:name="com.contractorhub.app.ui.expenses.AddEditExpenseFragment"
+        android:label="@string/expense_add_title"
+        tools:layout="@layout/fragment_add_edit_expense"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="expenseId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/clientPaymentListFragment"
+        android:name="com.contractorhub.app.ui.payments.ClientPaymentListFragment"
+        android:label="@string/payment_screen_title"
+        tools:layout="@layout/fragment_client_payment_list"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/addEditClientPaymentFragment"
+        android:name="com.contractorhub.app.ui.payments.AddEditClientPaymentFragment"
+        android:label="@string/payment_add_title"
+        tools:layout="@layout/fragment_add_edit_client_payment"
+        xmlns:tools="http://schemas.android.com/tools">
+        <argument
+            android:name="paymentId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/diaryFragment"
+        android:name="com.contractorhub.app.ui.diary.DiaryFragment"
+        android:label="@string/diary_screen_title"
+        tools:layout="@layout/fragment_diary"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+</navigation>

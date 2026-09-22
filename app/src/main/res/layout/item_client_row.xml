@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_12"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card_rounded"
+    android:padding="@dimen/spacing_16"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/text_row_client_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/chub_text_primary"
+        android:textSize="@dimen/text_size_title"
+        android:textStyle="bold"
+        tools:text="Mr. Patil" />
+
+    <TextView
+        android:id="@+id/text_row_client_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_4"
+        android:textColor="@color/chub_text_secondary"
+        android:textSize="@dimen/text_size_small"
+        tools:text="9876543210" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   PART 52 (Security): financial database backup handled explicitly via
+   Settings → Backup (Phase 20), not via automatic OS backup for now.
+-->
+<full-backup-content>
+</full-backup-content>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PART 9 — Color Palette (Dark mode variant) -->
+    <color name="chub_primary">#4C8DD9</color>
+    <color name="chub_secondary">#F9A825</color>
+    <color name="chub_background">#10151F</color>
+    <color name="chub_surface">#1B2230</color>
+    <color name="chub_text_primary">#EDEFF4</color>
+    <color name="chub_text_secondary">#9AA4B8</color>
+    <color name="chub_success">#4CAF50</color>
+    <color name="chub_warning">#F5A340</color>
+    <color name="chub_error">#E57373</color>
+    <color name="chub_border">#2A3241</color>
+
+    <color name="chub_on_primary">#FFFFFF</color>
+    <color name="chub_on_secondary">#172033</color>
+</resources>

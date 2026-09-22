@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ContractorHub" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/chub_primary</item>
+        <item name="colorOnPrimary">@color/chub_on_primary</item>
+        <item name="colorSecondary">@color/chub_secondary</item>
+        <item name="colorOnSecondary">@color/chub_on_secondary</item>
+
+        <item name="android:windowBackground">@color/chub_background</item>
+        <item name="colorSurface">@color/chub_surface</item>
+        <item name="android:textColorPrimary">@color/chub_text_primary</item>
+        <item name="android:textColorSecondary">@color/chub_text_secondary</item>
+
+        <item name="android:statusBarColor" tools:targetApi="21">@color/chub_primary</item>
+    </style>
+</resources>
